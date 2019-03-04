@@ -1,7 +1,7 @@
 # framer-runway-http-request
-A simple boilerplate for communicating with Runway machine learning models from Framer Classic
+This is a simple boilerplate for communicating with Runway machine learning models from Framer Classic.
 
-This project sends a **text caption input** to a pretrained **[AttnGAN](https://github.com/taoxugit/AttnGAN)** model in Runway, which returns a **generated image output**. This format for HTTP requests can be easily adapted to communicate with other models hosted in Runway's library.
+The project sends a **text caption input** to a pretrained **[AttnGAN](https://github.com/taoxugit/AttnGAN)** model in Runway, which returns a **generated image output**. This format for HTTP requests can be easily adapted to communicate with other models hosted in Runway's library.
 
 Optimized to work in parallel with **Runway v0.3.2**. Last updated **03.04.19**.
 
