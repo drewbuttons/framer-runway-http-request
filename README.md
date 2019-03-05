@@ -25,7 +25,7 @@ The caption shown at the top of the prototype will be sent to AttnGAN when you c
 testString = "a fairy sleeping in the forest"
 ```
 
-The function for sending the HTTP POST handles both sending our caption and receiving the generated image output response. Runway automatically assigns a local port to each model you run, so you may need to update `http://localhost:8001/query` depending on what's assigned to AttnGAN on your machine. 
+The function for HTTP POST handles both sending our caption and receiving the generated image output response. Runway automatically assigns a local port to each model you run, so you may need to update `http://localhost:8001/query` depending on what's assigned to AttnGAN on your machine. 
 
 Since the response will be returned as a Promise, we need to convert it to JSON in order to access the data. Once we do that, we can replace the `placeholder` layer's background with the base64 image that Runway returned (it may take a few seconds to complete the request and load the image when we execute the function).
 
